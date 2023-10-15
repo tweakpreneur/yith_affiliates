@@ -93,12 +93,12 @@ if ( 'POST' == $_SERVER['REQUEST_METHOD'] && !empty( $_POST['action'] ) && $_POS
                         <label for="email"><?php _e('E-mail *', 'profile'); ?></label>
                         <input class="text-input" name="email" type="text" id="email" value="<?php the_author_meta( 'user_email', $current_user->ID ); ?>" />
                     </p><!-- .form-email -->
-                    <!--<b>Change Password (leave blank to keep old password.)</b>
+                    <b>Change Password (leave blank to keep old password.)</b>
 					<p class="form-password">
                         <label for="pass1"><?php _e('Password *', 'profile'); ?> </label>
                         <input class="text-input" name="pass1" type="password" id="pass1" />
                     </p><!-- .form-password -->
-                    <!--<p class="form-password">
+                    <p class="form-password">
                         <label for="pass2"><?php _e('Repeat Password *', 'profile'); ?></label>
                         <input class="text-input" name="pass2" type="password" id="pass2" />
                     </p><!-- .form-password -->
