@@ -1,5 +1,5 @@
 <?php
-/*** payd yith_affiliates Request Withdrawal: uses shortcode [aff_withdraw]***/
+/*** payd yith_affiliates Request Withdrawal: Use shortcode [aff_withdraw]***/
 
 function aff_request_pay() {
 global $wpdb;
